@@ -1,0 +1,10 @@
+app:
+  build: .
+  command: "nodemon node_modules/.bin/rapptor"
+  volumes:
+    - '.:/app'
+    - '/app/node_modules'
+  environment:
+    PORT: 8080
+  ports:
+    - '8080:8080'

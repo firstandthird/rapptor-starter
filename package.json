@@ -1,0 +1,29 @@
+{
+  "name": "project-name",
+  "version": "0.0.1",
+  "description": "[description]",
+  "scripts": {
+    "start": "./node_modules/.bin/rapptor",
+    "lint": "./node_modules/.bin/eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firstandthird/[repo].git"
+  },
+  "keywords": [
+  ],
+  "author": "First+Third",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firstandthird/[repo]/issues"
+  },
+  "homepage": "https://github.com/firstandthird/[repo]#readme",
+  "dependencies": {
+    "rapptor": "1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.2.0",
+    "eslint-config-airbnb": "^8.0.0",
+    "eslint-config-firstandthird": "^2.0.0"
+  }
+}
