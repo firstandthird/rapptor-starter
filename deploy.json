@@ -1,0 +1,9 @@
+{
+  "name": "project",
+  "dockerargs": {
+    "p": "8080",
+    "e": {
+      "NODE_ENV": "{{env}}"
+    }
+  }
+}

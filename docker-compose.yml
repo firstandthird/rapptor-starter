@@ -1,10 +1,17 @@
 app:
-  build: .
-  command: "nodemon node_modules/.bin/rapptor"
+  image: 'mhart/alpine-node:6.7'
+  working_dir: '/app'
+  command: "npm run dev"
+  #command: "npm run dev:server" #if you don't want clientkit
   volumes:
     - '.:/app'
-    - '/app/node_modules'
   environment:
     PORT: 8080
+    VIRTUAL_HOST: 'changeme.*'
   ports:
-    - '8080:8080'
+    - '8080'
+  links:
+    - 'mongo:mongo'
+mongo:
+  image: 'mongo'
+  command: 'mongod --smallfiles --quiet'
