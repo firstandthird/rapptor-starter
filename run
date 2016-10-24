@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NAME=app_1
+NAME=changeme_app_1
 CMD=$1
 
 if [[ -z "$CMD" ]]; then
