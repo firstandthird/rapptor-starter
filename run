@@ -16,6 +16,7 @@ if [[ "$CMD" == "enter" ]]; then
 fi
 
 if [[ "$CMD" == "npmi" ]]; then
+  docker exec -it $NAME npm prune
   docker exec -it $NAME npm install
   touch conf/default.yaml
 fi
