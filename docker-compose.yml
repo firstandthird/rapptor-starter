@@ -1,5 +1,5 @@
 app:
-  image: 'mhart/alpine-node:6.7'
+  image: 'firstandthird/node:6.7'
   working_dir: '/app'
   command: "npm run dev"
   #command: "npm run dev:server" #if you don't want clientkit

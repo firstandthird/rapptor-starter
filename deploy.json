@@ -1,5 +1,5 @@
 {
-  "name": "project",
+  "name": "changeme",
   "dockerargs": {
     "p": "8080",
     "e": {

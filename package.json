@@ -6,7 +6,7 @@
   "scripts": {
     "start": "rapptor",
     "dev": "npm install && concurrently 'nodemon' 'npm run clientkit:dev'",
-    "dev:server": "npm install && nodemon",
+    "dev:server": "npm install && nodemon -x 'npm start'",
     "clientkit:prod": "clientkit --env prod",
     "clientkit:dev": "clientkit --env dev",
     "lint": "eslint ."
