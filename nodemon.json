@@ -1,4 +1,5 @@
 {
+  "delay": "1000",
   "verbose": true,
   "ignore": [
     ".git",
@@ -11,8 +12,8 @@
     "methods/**/*.js",
     "plugins/**/*.js",
     "helpers/**/*.js",
-    "public/**/*.html",
+    "views/**/*.njk",
     "conf/*.yaml"
   ],
-  "ext": "js yaml html"
+  "ext": "js yaml njk"
 }

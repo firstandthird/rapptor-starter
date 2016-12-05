@@ -1,3 +1,2 @@
-core:
-  assetPath: 'public'
-  dist: '{{core.assetPath}}/_dist'
+assetPath: 'public'
+dist: '{{core.assetPath}}/_dist'
